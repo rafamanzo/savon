@@ -17,13 +17,14 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.add_dependency "nori",     "~> 2.3.0"
+
+  s.add_dependency "nokogiri", ">= 1.4.0"
   s.add_dependency "httpi",    "~> 2.1.0"
-  s.add_dependency "wasabi",   "~> 3.2.0"
+  #s.add_dependency "wasabi",   "~> 3.3.0"
   s.add_dependency "akami",    "~> 1.2.0"
   s.add_dependency "gyoku",    "~> 1.1.0"
 
   s.add_dependency "builder",  ">= 2.1.2"
-  s.add_dependency "nokogiri", ">= 1.4.0", "< 1.6"
 
   s.add_development_dependency "rack"
   s.add_development_dependency "puma",  "2.0.0.b4"
