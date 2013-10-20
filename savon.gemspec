@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.license = 'MIT'
 
-  s.add_dependency "nori",     "~> 2.3.0"
+  s.add_dependency "nori-ng-1.6",     "~> 2.3.0"
 
   s.add_dependency "nokogiri",      ">= 1.4.0"
   s.add_dependency "httpi",         "~> 2.1.0"
